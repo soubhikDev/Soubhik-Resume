@@ -1,2 +1,2 @@
-# Soubhik-Resume
+# soubhik-resume
 Soubhik Resume 
