@@ -9,10 +9,10 @@ const Layout = ({ children }) => {
 
     return (
         <>
-            {
-                (router.pathname != '/login' && router.pathname != '/subscription')
-                && <Navbar />
-            }
+                {/* {
+                    (router.pathname != '/login' && router.pathname != '/subscription')
+                    && <Navbar />
+                } */}
 
             <main>
                 {children}

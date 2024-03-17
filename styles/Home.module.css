@@ -1,0 +1,48 @@
+.Banner {
+    height: 100vh;
+    background-color:rgb(33, 41, 43);
+    overflow: hidden;
+}
+.banner_Main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.banner_sub{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.banner_sub h1{
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+.banner_Main img{
+    position: absolute;
+    right: -100px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+    filter: drop-shadow(2px 14px 15px rgba(0, 0, 0, 0.562));
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
