@@ -1,45 +1,57 @@
-.Banner {
+.Banner{
+    background:url(https://project-assetss.s3.ap-south-1.amazonaws.com/My-resume/BannerImageBG.webp), #000;
+    background-repeat: no-repeat;
+    background-size: contain , 100%;
+    background-position: right bottom, center;
     height: 100vh;
-    background-color:rgb(33, 41, 43);
-    overflow: hidden;
 }
-.banner_Main {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
+.BannerSub h3{
+    font-size: 30px;
+    font-weight: 200;
+    color: #bea35a;
+    line-height: 28px;
 }
-.banner_sub{
-    width: 50%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-}
-.banner_sub h1{
+.BannerSub h4{
     font-size: 50px;
     font-weight: 800;
-    text-transform: uppercase;
-    color: aliceblue;
+    color: #fff;
+    line-height: 50px;
+    margin-right: 10px;
 }
-.banner_Main img{
-    position: absolute;
-    right: -100px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 50%;
-    filter: drop-shadow(2px 14px 15px rgba(0, 0, 0, 0.562));
-
+.BannerSub h4 span{
+    font-size: 90px;
+    line-height: 80px;
 }
-
-
-
-
-
-
-
-
-
-
+.BannerSub{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    height: 100vh;
+}
+.BannerTextName{
+    display: flex;
+    align-items: flex-end;
+}
+.BannerSub h1{
+    font-size: 90px;
+    font-weight: 800;
+    color: #f6e484;
+    line-height: 80px;
+}
+.BannerSub h2{
+    font-size: 160px;
+    font-weight: 800;
+    color: #fcc261;
+    line-height: 130px;
+    margin-left: -3px;
+}
+.BannerSub h5{
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 40px;
+}
 
 
 

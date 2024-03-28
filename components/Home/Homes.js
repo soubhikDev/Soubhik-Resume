@@ -5,11 +5,14 @@ export default function Homes() {
     <>
       <div className={styles.Banner}>
         <div className="common_width">
-          <div className={styles.banner_Main}>
-            <div className={styles.banner_sub}>
-              <h1>Mr. Soubhik Debnath</h1>
+          <div className={styles.BannerSub}>
+            <h3>Hello!</h3>
+            <div className={styles.BannerTextName}>
+              <h4><span>I</span>'m</h4>
+              <h1>SOUBHIK</h1>
             </div>
-              <img src="https://project-assetss.s3.ap-south-1.amazonaws.com/My-resume/BannerImage1.webp" />
+              <h2>DEBNATH</h2>
+              <h5>Front-End Developer</h5>
           </div>
         </div>
       </div>
